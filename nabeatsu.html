@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>nabeatsu</title>
+</head>
+<body>
+  <script>
+    'use strict';
+
+    for(let i = 1; i <= 100; i++){ //100になるまでくりかえす
+      let num= i;　//数値を文字列に変換するために、数値を変数に保存
+      let str = String(num);　//　indexOfは文字列を検索するので数値を文字列に変換する
+    if(i % 3 === 0 || str.indexOf('3') >= 0){　//3の倍数もしくは3のつく数字に場合、処理を実行
+     console.log(`${i}!`);
+    }else{
+     console.log(i);
+    }
+  }
+  </script>
+</body>
+</html>
+</html>
